@@ -1,0 +1,226 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins&display=swap');
+  /* -----------------------------------------------
+                      header style  
+  ---------------------------------------------------*/
+  .container{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 3px 100px;
+    font-family: poppins;    
+    background-color: rgb(252, 233, 247);
+  }
+  h2{
+    font-size: 35px;
+    font-weight: 600;
+  }
+  li{
+    list-style: none;
+    margin-left: 50px;
+    font-weight: 600;
+  }
+  ul{
+    display: flex;
+  }
+  .header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* ----------------------------------------
+            start main section 
+    ---------------------------------------- */
+  .banner-section{
+    text-align: center;
+  }
+  .banner-section-tiile h1{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .banner-section-tiile p{
+    font-size: 17px;
+    color: grey;
+    font-weight: 500;
+    text-align: center;
+  }
+  .explore-btn{
+    padding: 15px 30px;
+    margin-bottom: 30px;
+    background-color: orange;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+  }
+  .explore-btn:hover{
+    border: 1px solid orange;
+  }
+  .img-banner{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  /* ------------------------------------------------
+           container imgges grups section
+    ------------------------------------------------- */ 
+
+  .container-fulid{
+    background-color: white;
+  }
+
+  .groups-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    margin-top: 40px;
+    margin-bottom: 40px;   
+    }
+    .images-group{
+      display: grid;
+      grid-template-columns: repeat(2, 2fr);
+      gap: 5px;  
+      align-items: and;    
+    }
+    .images-group img{
+      height: 100%;
+       width: 100%;
+       
+    }
+.groups-decscription{
+      margin: 70px;      
+    }
+.groups-decscription h2{
+  font-size: 38px;
+  color: gray;
+}
+.gray-color{
+  color: black;
+  font-weight: 900;
+}
+.red{
+  color: rgba(255, 166, 0, 0.911);
+}
+.groups-decscription p{
+  font-size: 16px;
+}
+/*--------------------------------------------
+                    features sectio
+  ---------------------------------------------- */
+.features{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr );
+  margin-top: 70px;
+}
+.info-decs{  
+  margin-right: 30px;
+}
+.info-decs p{
+  font-size: 16px;
+}
+.info-decs h3{
+  font-size: 35px;
+  font-weight: bolder;
+  padding-left: 15px;
+  border-left: 5px solid orange;
+}
+.freedom{
+  margin-left: 15px;
+  margin-right: 100px;
+  box-shadow: 2px 1px 2px 2px #fff5f5;
+  padding: 1px 10px 5px 10px;
+}
+.freedom h3{
+  font-size: 18px; 
+}
+.freedom p{
+  font-size: 14px;
+}
+ .overly{   
+  background-color: orange;
+  position: absolute;  
+  border: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: #fff5f5;
+}
+.year{
+  font-size: 20px;
+  font-weight: bolder;
+}
+/* ------------------------------------
+         some-facts section 
+  ------------------------------------- */
+  .some-facts{
+    margin-top: 100px;
+  }
+  .icon-info{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+  }
+  .facts h2, .sponspors-decs h2{
+    font-weight: 900;
+    font-size: 40px;
+    color: black;
+  }
+  .facts, .sponspors-decs p{
+    font-size: 16px;
+    font-weight: bold;
+    color: grey;
+  }
+  .facts-info{    
+    width: 170px;
+    margin-top: 100px;
+    padding: 10px 20px;
+    text-align: center;
+    border: 2px solid orange;
+    border-radius: 5px;
+  }
+  .facts-info:hover{
+    border: 3px solid skyblue;
+  }
+  .facts-info p{
+    font-size: 17px;
+    color: gray;
+  }
+  .facts-info span{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  /* -------------------------------
+           our sponspors style
+    -------------------------------- */
+    .our-sponspors{
+      margin-top: 100px;
+    }
+    .sponspors-decs{
+      text-align: center;
+    }
+    .sponspors-icon img{
+      height: 50%;
+      width: 50%;
+     filter: grayscale(1);
+     align-items: center;
+     margin: 20px auto;
+    }
+    .sponspors-icon{
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      align-items: center;
+      justify-content: center;
+    }
+    /* ------------------------------------------
+               footer section style            
+    ------------------------------------------  */
+    
+    .footer-content{
+      width: 1040px;
+      margin: auto;
+      text-align: center;
+    }
+    
